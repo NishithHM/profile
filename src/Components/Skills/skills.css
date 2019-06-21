@@ -1,0 +1,30 @@
+.skills-container{
+    background-color: lightgrey;
+    margin: 100px 0 50px 0;
+    display: flex;
+    flex-direction: column
+}
+.skills-header-container{
+    width: auto;
+    height: auto;
+    margin: 75px 0 0 0;
+}
+.skills-header{
+    padding: 10px 0px;
+    border-top: 7px solid black;
+    border-bottom: 7px solid skyblue;
+    font-size: 30px;
+    width: 110px;
+    margin: auto auto 7px auto;
+    font-weight: 500;
+}
+.skills-row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto 10px auto
+}
+.skills-details{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 0 0;
+}

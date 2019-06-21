@@ -1,0 +1,19 @@
+.crircular-progress{
+    height: 150px;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: white !important;
+}
+.progress-info{
+    margin: 20px 0 0 0;
+}
+.progress-title{
+    margin: 0;
+    font-weight: bold;
+}
+.CircularProgressbar .CircularProgressbar-path {
+    stroke:black !important;
+}
+.skillprogress-container{
+    margin: 0 10px 0 10px;
+}
