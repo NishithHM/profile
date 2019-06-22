@@ -80,3 +80,24 @@
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width:479px){
+    .aboutme-body{
+        flex-direction: column
+    }
+    .aboutme-pic{
+        float: unset;
+        margin: auto
+    }
+    .aboutme-content{
+        margin: 0 20px;;
+        width: 100%
+    }
+    .aboutme-description{
+        margin: 0;
+        padding: 5px
+    }
+    .aboutme-about{
+        margin: 0 20px 0 0px
+    }
+}

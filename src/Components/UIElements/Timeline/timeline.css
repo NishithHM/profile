@@ -1,0 +1,35 @@
+.resume-round{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 200px;
+    margin: auto;
+    color: white;
+}
+.timeline-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column
+}
+.timeline-line{
+    height: 50px;
+    width: 4px;
+    background-color: black;
+    margin: auto
+}
+.bubble-text{
+    margin: -20px 0 0 0; 
+    font-weight: bold
+}
+.timeline-details{
+    display: flex;
+    flex-direction: column
+}
+
+.timeline-role{
+    margin: 10px;
+    font-weight: bold;
+    color: brown
+}
+

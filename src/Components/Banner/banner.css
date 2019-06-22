@@ -1,14 +1,9 @@
 .banner-component{
     max-width: 100%;
-    height: 600px;
+    min-height: 600px;
     background-color: black;
     display: flex;
     flex-direction: column
-}
-
-.banner-mouse{
-    align-self: baseline;
-    text-align: initial
 }
 
 .banner-header-nav{
@@ -31,7 +26,12 @@
 .banner-body{
     display: flex;
     flex-direction: row;
-    margin: auto 0 auto 0
+    margin: auto 0 auto 0;
+    background-image: url('../../assets/mouse.jpg');
+    background-color: black;
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 300px;
 }
 
 .banner-title{
@@ -65,3 +65,14 @@
     color: blue
 }
 
+@media only screen and (max-width:479px){
+    .banner-header-nav{
+        display: none
+    }
+    .banner-body{
+        background-image: none
+    }
+    .banner-title{
+        width: 90%
+    }
+}

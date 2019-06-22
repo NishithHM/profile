@@ -1,0 +1,21 @@
+.resume-container {
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray
+}
+
+.resume-header-container {
+    width: auto;
+    height: auto;
+    margin: 100px 0 0 0;
+}
+.resume-timeline{
+    display:flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+}
+.bubble{
+    margin: 40px 10px;
+}
+

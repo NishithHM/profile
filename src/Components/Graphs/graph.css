@@ -1,0 +1,20 @@
+.graph-container{
+    display: flex;
+    min-height: 300px;
+    background-color: black;
+    /* background-image: url('../../assets/smile.jpeg') ; */
+    background-repeat: no-repeat;
+    background-position: center
+}
+.graph-data{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex: 4
+}
+
+@media only screen and (max-width:479px){
+    .graph-data{
+        flex-direction: column
+    }
+}
