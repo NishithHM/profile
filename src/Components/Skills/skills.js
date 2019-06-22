@@ -13,16 +13,15 @@ export default class Skills extends Component {
                 </div>
                 <div className='skills-details'/>
                 <div className='skills-row'>
-                <SkillProgress/>
-                <SkillProgress/>
-                <SkillProgress/>
+                <SkillProgress tech='HTML 5' value='70' desc='using HTML 5 for all the React JS'/>
+                <SkillProgress tech='React' value='85' desc='Certified(TESTDOME) in React world top 25%'/>
+                <SkillProgress tech='CSS/SASS' value='60' desc='Latest CSS technologies'/>
                 </div>
                 <div className='skills-row'>
-                <SkillProgress/>
-                <SkillProgress/>
-                <SkillProgress/>
+                <SkillProgress tech='Bootsstrap' value='70' desc='Used latest Bootsrap and React Bootstrap'/>
+                <SkillProgress tech='Javascript' value='80' desc='Deep knowledge in Javascript and relavent Libraries'/>
+                <SkillProgress tech='Node JS' value='30' desc='putting baby steps towards backend technologies'/>
                 </div>
-
 
             </div>
         )
