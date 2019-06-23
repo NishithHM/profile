@@ -37,7 +37,7 @@ export default class Contact extends Component {
     }
     render() {
         return (
-            <div className='contact-container'>
+            <div className='contact-container' id='contact'>
                 <div className='contact-header-container'>
                     <p className='contact-header'>Get Connected</p>
                     <p>Let us grow together</p>
@@ -55,11 +55,11 @@ export default class Contact extends Component {
                         </div>
                         <div>
                         <i className="fa fa-mobile" aria-hidden="true"></i>
-                        <span className='detail-marker'>+919482067487</span>
+                        <span className='detail-marker email' onClick={()=>'tel:+919482067487'}>+919482067487</span>
                         </div>
                         <div>
                         <i className="fa fa-envelope-o" aria-hidden="true"></i>
-                        <span className='detail-marker'>nhm987@gmail.com</span>
+                        <span className='detail-marker email' onClick={()=>window.location.href = "mailto:nhm987@gmail.com?subject=Query from Nishtih Dev hub"}>nhm987@gmail.com</span>
                         </div>
                         <div>
                         <i className="fa fa-globe" aria-hidden="true"></i>

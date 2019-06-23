@@ -5,7 +5,7 @@ import { Timeline } from '../UIElements';
 export default class Resume extends Component {
     render() {
         return (
-            <div className='resume-container'>
+            <div className='resume-container' id='career'>
                 <div className='resume-header-container'>
                     <p className='aboutme-header'>Careers</p>
                     <p>The path for getting right here!! </p>

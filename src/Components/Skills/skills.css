@@ -21,7 +21,8 @@
 .skills-row{
     display: flex;
     flex-direction: row;
-    margin: 10px auto 10px auto
+    margin: 10px auto 10px auto;
+    flex: 3
 }
 .skills-details{
     display: flex;

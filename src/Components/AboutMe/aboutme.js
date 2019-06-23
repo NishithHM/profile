@@ -7,7 +7,7 @@ export default class AboutMe extends Component {
             <div className='aboutme-container' id='aboutme'>
                 <div className='aboutme-header-container'>
                     <p className='aboutme-header'>ABOUT ME</p>
-                    <p>Very young blood, Deep passion to code and developing dream to acheive!!! </p>
+                    <p>Very blood, Deep passion to code and developing dream to acheive!!! </p>
                 </div>
                 <div className='aboutme-body'>
                     <div className='aboutme-profile'>
@@ -23,7 +23,7 @@ export default class AboutMe extends Component {
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est iste incidunt, et nam pariatur sit totam quos id ex dolorem deleniti, autem tempore eaque dolores quibusdam obcaecati, veritatis mollitia consequuntur.
                             </p>
                             <div className='aboutme-resume' onClick={()=>document.getElementById('resumeLink').click()}>
-                                <a id='resumeLink' className='aboutme-resume-link' href='#' target='_blank'>Download Resume</a>
+                                <a id='resumeLink' className='aboutme-resume-link' href='https://drive.google.com/file/d/1eG2TaQs0Tsl_Ja2-c-0QvO9AeUXpr9Ab/view?usp=sharing' target='_blank'>Download Resume</a>
                             </div>
                         </div>
                     </div>
