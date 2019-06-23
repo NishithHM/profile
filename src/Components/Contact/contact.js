@@ -58,9 +58,10 @@ export default class Contact extends Component {
                     <div className='mydetails'>
                         <div className='info-container'>
                             <p className='detail-header'>Details</p>
-                            <p className='detiail-info'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Molestiae nobis, repellendus illo sed. Sed numquam libero, atque doloribus voluptate culpa
-                        dignissimos hic ratione officiis facere possimus exercitationem illo. In, quae.</p>
+                            <p className='detiail-info'>
+                         Connecting together for a better purpose, always brings a fortune.<br/>
+                         Let us get together, create, grow and make ourself great again!!!
+                        </p>
                         <div>
                         <i className="fa fa-map-marker" aria-hidden="true"></i>
                         <span className='detail-marker'>Bangalore Karnataka, India</span>
@@ -76,6 +77,9 @@ export default class Contact extends Component {
                         <div>
                         <i className="fa fa-globe" aria-hidden="true"></i>
                         <span className='detail-marker'>www.xyz.com</span>
+                        </div>
+                        <div>
+                        <a className="fa fa-linkedin-square fa-3x social" aria-hidden="true" href='https://www.linkedin.com/in/nishith-hm-446235a0/' target='_blank'></a>
                         </div>
                         </div>
                     </div>
