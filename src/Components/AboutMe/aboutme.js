@@ -18,9 +18,9 @@ export default class AboutMe extends Component {
                             <span className='aboutme-name'>Nishith HM</span><br />
                             <span className='aboutme-role'>React Interactive Developer</span>
                             <p className='aboutme-about'>
-                               Having <strong>3 years</strong> of experience in Front end development using <strong>React Javascript HTML CSS Bootstrap Sass and other recent technologies</strong>
-                               Currently working on my <strong>Node</strong> and moving greater steps towards <strong>MERN Stack</strong>. Apart from technical hunger there
-                               are lot of innovative ideas revolves arround my head and some are finding the results (Just Like developing this website).
+                               Having <strong>3 years</strong> of experience in Front end development using <strong>React Javascript HTML CSS Bootstrap Sass and other recent technologies </strong>
+                               ,I am also working on developing <strong>Node, Express and Mongo</strong> to stride towards <strong>MERN Stack</strong> development. Apart from technical 
+                               hunger there are lot of innovative ideas revolve arround my head and some are finding the results (Just Like developing this Site).
                             </p>
                             <div className='aboutme-resume' onClick={()=>document.getElementById('resumeLink').click()}>
                                 <a id='resumeLink' className='aboutme-resume-link' href='https://drive.google.com/file/d/1eG2TaQs0Tsl_Ja2-c-0QvO9AeUXpr9Ab/view?usp=sharing' target='_blank'>Download Resume</a>

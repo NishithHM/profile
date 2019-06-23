@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import Typing from 'react-typing-animation'
 import './banner.css'
 import mouse from '../../assets/mouse.jpg'
-let titleArray=[' You can have a look on all my contributions here.']
+let titleArray=['Welcome, I am Nishith']
 export default class Banner extends Component{
     constructor(props){
         super(props)
@@ -22,7 +22,7 @@ export default class Banner extends Component{
                    <a href='#contact' className='banner-links'>Contact</a>
                 </div>
                 <div className='banner-body'>
-                <Typing cursorClassName='banner-cursor' className='banner-title' loop={true} speed='0.5'>
+                <Typing cursorClassName='banner-cursor' className='banner-title' loop={true}>
                   <span className='banner-typewriter' id='title'>{this.state.text+'         '}</span>
                   <Typing.Backspace count={this.state.text.length+10} />
                 </Typing>

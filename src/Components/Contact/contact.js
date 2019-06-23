@@ -72,7 +72,7 @@ export default class Contact extends Component {
                         </div>
                         <div>
                         <i className="fa fa-envelope-o" aria-hidden="true"></i>
-                        <span className='detail-marker email' onClick={()=>window.location.href = "mailto:nhm987@gmail.com?subject=Query from Nishtih Dev hub"}>nhm987@gmail.com</span>
+                        <span className='detail-marker email' onClick={()=>window.location.href = "mailto:nhm987@gmail.com?subject=Query from Nishith Dev hub"}>nhm987@gmail.com</span>
                         </div>
                         <div>
                         <i className="fa fa-globe" aria-hidden="true"></i>
