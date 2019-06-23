@@ -1,7 +1,7 @@
 {
   "name": "webprofile",
   "version": "0.1.0",
-  "private": true,
+  "main": "app.js",
   "engines": {
     "node": "8.16.0",
     "npm": "6.4.1"
@@ -13,7 +13,7 @@
     "nodemailer": "^6.2.1"
   },
   "scripts": {
-    "build": "NODE_ENV=development node ./src/",
+    "build": "node app.js",
     "serve-dev": "NODE_ENV=development nodemon ./src/"
   },
   "eslintConfig": {
