@@ -10,7 +10,8 @@ export default class Contact extends Component {
             phone:'',
             mail:'',
             message:'',
-            error:false
+            error:false,
+            errorText:''
         }
     }
     handleChange=(e)=>{
@@ -24,7 +25,8 @@ export default class Contact extends Component {
         console.log(name,phone,mail,message)
         if(name===''||phone===''||mail===''||message==''){
             this.setState({
-                error:true
+                error:true,
+                errorText:'Do Enter all feilds'
             })
             return
         }
@@ -33,7 +35,17 @@ export default class Contact extends Component {
             phone,
             mail,
             message}
-        )
+        ).then(()=>{
+            this.setState({
+                error:true,
+                errorText:'We have received your message, will revert shortly'
+            })
+        }).catch((e)=>[
+            this.setState({
+                error:true,
+                errorText:'There exists some issue, triggering mail service, by the time we fix it, you can directly send us an email to :nhm987@gmail.com'
+            })
+        ])
     }
     render() {
         return (
@@ -69,7 +81,7 @@ export default class Contact extends Component {
                     </div>
                     <div className='contact-form'>
                        <div className='form-container'>
-                           {this.state.error ? (<p className='error-feild'>Enter all feilds</p>) :(null)}
+                           {this.state.error ? (<p className='error-feild'>{this.state.errorText}</p>) :(null)}
                            <input type='text' className='form-input' placeholder='Your Name' id='name' value={this.state.name} onChange={this.handleChange}/>
                            <input type='number' className='form-input' placeholder='Your Phone' id='phone'value={this.state.phone} onChange={this.handleChange}/>
                            <input type='mail' className='form-input' placeholder='Your Mail' id='mail'value={this.state.mail} onChange={this.handleChange}/>
