@@ -55,7 +55,7 @@ export default class Contact extends Component {
                         </div>
                         <div>
                         <i className="fa fa-mobile" aria-hidden="true"></i>
-                        <span className='detail-marker email' onClick={()=>'tel:+919482067487'}>+919482067487</span>
+                        <span className='detail-marker email' onClick={()=>window.location.href='tel:+919482067487'}>+919482067487</span>
                         </div>
                         <div>
                         <i className="fa fa-envelope-o" aria-hidden="true"></i>
