@@ -10,6 +10,15 @@
     width: 60%;
     margin: auto
 }
+.services-header{
+    padding: 10px 0px;
+    border-top: 7px solid black;
+    border-bottom: 7px solid skyblue;
+    font-size: 30px;
+    width: 200px;
+    margin: auto auto 7px auto;
+    font-weight: 500;
+}
 
 @media only screen and (max-width:479px){
     .services-details{

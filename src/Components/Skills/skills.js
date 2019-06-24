@@ -14,7 +14,7 @@ export default class Skills extends Component {
                 <div className='skills-details'/>
                 <div className='skills-row'>
                 <SkillProgress tech='HTML 5' value='70' desc='using HTML 5 for all the React JS'/>
-                <SkillProgress tech='React' value='85' desc='Certified (TESTDOME) in React world top 25%'/>
+                <SkillProgress tech='React/React-Native' value='85' desc='Certified (TESTDOME) in React world top 25%'/>
                 <SkillProgress tech='CSS/SASS' value='60' desc='Latest CSS technologies'/>
                 </div>
                 <div className='skills-row'>

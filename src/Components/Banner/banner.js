@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import Typing from 'react-typing-animation'
 import './banner.css'
 import mouse from '../../assets/mouse.jpg'
-let titleArray=['Welcome, I am Nishith']
+let titleArray=['React Interactive Developer']
 export default class Banner extends Component{
     constructor(props){
         super(props)

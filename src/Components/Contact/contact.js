@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './contact.css'
 import Axios from 'axios';
-
+import qr from '../../assets/qr.png'
 export default class Contact extends Component {
     constructor(props){
         super(props)
@@ -23,7 +23,7 @@ export default class Contact extends Component {
     handleSumbmit=()=>{
         const{name, phone, mail, message}=this.state
         console.log(name,phone,mail,message)
-        if(name===''||phone===''||mail===''||message==''){
+        if(name===''||phone===''||mail===''|| message===''){
             this.setState({
                 error:true,
                 errorText:'Do Enter all feilds'
@@ -59,8 +59,11 @@ export default class Contact extends Component {
                         <div className='info-container'>
                             <p className='detail-header'>Details</p>
                             <p className='detiail-info'>
-                         Connecting together for a better purpose, always brings a fortune.<br/>
-                         Let us get together, create, grow and make ourself great again!!!
+                         Knock! Knock! <br/>
+                         You have a Project, <br/>
+                         OR Bug Issues?<br/>
+                         Ping me!!!
+                         .<br/>
                         </p>
                         <div>
                         <i className="fa fa-map-marker" aria-hidden="true"></i>
@@ -80,6 +83,10 @@ export default class Contact extends Component {
                         </div>
                         <div>
                         <a className="fa fa-linkedin-square fa-3x social" aria-hidden="true" href='https://www.linkedin.com/in/nishith-hm-446235a0/' target='_blank'></a>
+                        </div>
+                        <div className='qr-container'>
+                        <p>Or Scan this code from your mobile to add me to your contacts</p>
+                        <img className='qr-code' src={qr} alt='qrcode'></img>
                         </div>
                         </div>
                     </div>
