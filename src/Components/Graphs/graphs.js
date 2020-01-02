@@ -6,10 +6,10 @@ export default class Graph extends Component{
     constructor(props){
         super(props)
         this.state={
-            data1:5,
+            data1:6,
             data2:1600,
-            data3:4,
-            data4:4
+            data3:5,
+            data4:6
         }
     }
 
